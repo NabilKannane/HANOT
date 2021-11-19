@@ -1,0 +1,111 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+header{
+    background-color: tomato;
+    padding: 40px;
+}
+
+.container{
+ display: flex;
+ margin: 20px;
+}
+
+.menu{
+margin:  auto;
+margin-left: 20px;
+background-color: rgb(247, 247, 247);
+border: 1px solid;
+display: flex;
+flex-wrap: wrap;
+}
+
+.achat{
+border: 2px solid;
+width: 900px;
+margin-left: 20px;
+}
+.produit{
+    padding: 20px;
+    margin: 25px;
+    width: 275px;
+    height: 360px;
+    border: solid 1px;
+    border-radius: 20px;
+    background-color: #fff;
+    text-align: center;
+
+}
+
+.produit img{
+    width: 280px;
+    margin:auto;
+}
+
+
+.achat h2{
+    background-color: tomato;
+    text-align: center;
+}
+
+#add{
+    background-color: rgb(0, 184, 0);
+    width: 25px;
+    height: 25px;
+    color: #fff;
+border: none;
+border-radius: 5px;
+    float: right;
+}
+
+#add:hover{
+    background-color: rgb(0, 119, 0);
+    width: 25px;
+    height: 25px;
+    color: #fff;
+border: none;
+border-radius: 5px;
+    float: right;
+}
+
+p{
+    font-size: 14px;
+}
+
+/************* SHOP LIST *************/
+
+.myshop{
+    text-align: center;
+    margin-top: 10px;
+    padding: 5px;
+    background-color: rgb(255, 197, 187);
+    height: 30px;
+}
+
+.qtn{
+    width: 30px;
+
+}
+
+.supp{
+    background-color: red;
+    width: 25px;
+    height: 25px;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    float: right;
+    margin-right: 10px;
+}
+
+.supp:hover{
+    background-color: rgb(196, 0, 0);
+    width: 25px;
+    height: 25px;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    float: right;
+}
